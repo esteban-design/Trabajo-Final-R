@@ -32,10 +32,10 @@ Expresión regular, también conocida como regex, regexp o expresión racional, 
 
 
 
---- A -- [Pagina_Web_ReGex_1](https://aprende-web.net/jspracticas/resumen/resumen9.php)
+--- A -- [Página_Web_ReGex_1](https://aprende-web.net/jspracticas/resumen/resumen9.php)
 
 
-___Resumen De Pagina:___
+___Resumen De Página:___
 
 Las expresiones regulares permiten comprobar si una cadena de texto se ajusta a un determinado tipo de estructura o patrón. Utilizan un lenguaje de signos propio, y permiten también buscar o remplazar texto, no sólo un texto concreto sino un tipo de texto que se ajuste a un determinado patrón.
 
@@ -54,10 +54,10 @@ Temas a tomar en cuenta:
 ### Página 2 ReGex:
 
 
---- B -- [Pagina_Web_ReGex_2](https://www.adictosaltrabajo.com/2015/01/29/regexsam/)
+--- B -- [Página_Web_ReGex_2](https://www.adictosaltrabajo.com/2015/01/29/regexsam/)
 
 
-___Resumen De Pagina:___
+___Resumen De Página:___
 
 Permiten filtrar textos para encontrar coincidencias, comprobar la validez de fechas, documentos de identidad o contraseñas, se pueden utilizar para reemplazar texto con unas características concretas por otro, y muchos más usos...
 
@@ -80,9 +80,9 @@ Lista de los más utilizados:
 
 -- **Comentario y diferencias sobre** **[Pagina_Web_ReGex_1] y [Pagina_Web_ReGex_2]**:
 
-Las dos paginas contienes informacion clave sobre Expresiones Regulares pero la gran difrencia es que en 
+Las dos páginas contienen información clave sobre Expresiones Regulares pero la gran diferencia es que 
 [ReGex1] contiene espacios publicitarios y el diseño es un poco más confuso. En [ReGex2] el diseño es más 
-simple pero para obtener mas información tienes que dar click en links que te llevaran a otra pagina y eso
+simple pero para obtener mas información tienes que dar click en links que te llevarán a otra página y eso
 quita tiempo al que busca información.
 
 
@@ -99,13 +99,13 @@ quita tiempo al que busca información.
 R Markdown es un formato que permite una fácil creación de documentos, presentaciones dinámicas y informes de R. Markdown es un formato de sintaxis simple para crear documentos en HTML, PDF, y Word.
 
 
-### Pagina 1 Markdown: 
+### Página 1 Markdown: 
 
 
---- A -- [Pagina_Web_MKD_1](http://www.unavarra.es/personal/tgoicoa/ESTADISTICA_RMarkdown_tomas/basicRmarkdown/index.html)
+--- A -- [Página_Web_MKD_1](http://www.unavarra.es/personal/tgoicoa/ESTADISTICA_RMarkdown_tomas/basicRmarkdown/index.html)
 
 
-___Resumen De Pagina:___
+___Resumen De Página:___
 
 1.1 Requisitos
 1.2 Tipos de archivo
@@ -114,7 +114,7 @@ ___Resumen De Pagina:___
 1.5 Ejemplo
 
 
-1. Guia sencilla para empezar con RMarkdown
+1. Guía sencilla para empezar con RMarkdown
 
 
 -- 1.1 Requisitos
@@ -134,10 +134,10 @@ El resultado es un documento en formato .pdf, .html, o .doc...
 ### Página 2 Markdown:
 
 
---- B -- [Pagina_Web_MKD_2](http://www.rpubs.com/JohanMarin/Rmarkdown)
+--- B -- [Página_Web_MKD_2](http://www.rpubs.com/JohanMarin/Rmarkdown)
 
 
-___Resumen De Pagina:___
+___Resumen De Página:___
 
 ¿Qué es Markdown?
 R Markdown
@@ -153,7 +153,7 @@ Teniendo en cuenta estas ventajas de markdown y el enfoque de R en la estadistic
 El cual aprovecha las caracteristicas de Markdown, latex), y html para generar reportes en múltiples formatos, figura 2, sin la necesidad un editor externo...
 
 
-... ¿Como se compila?
+... ¿Cómo se compila?
 Cuando se selecciona el botón botón Knit el documento R Markdown es procesado por knitr y un documento Markdown simple es producido el código R es ejecutado y reemplazado por ambas la entrada y la salida; si las figuras son producidas, se incluyen enlaces a esas figuras...
 
 
@@ -161,9 +161,9 @@ Cuando se selecciona el botón botón Knit el documento R Markdown es procesado 
 -- **Comentario y diferencias sobre** **[Pagina_Web_MKD_1] y [Pagina_Web_MKD_2]**:
 
 
-Podemos ver claramente que MKD1 es mucho mas simple y basica donde la informacion es clara y contiene ejemplos.
-Se puede destacar que agregaron un indice donde puedes bucar la informacion que necesitas.
-Por otro lado MKD2 es una pagina mucho mas completa donde aparte de explicaciones agregan imagenes que explican paso por paso que tienes que hacer.
+Podemos ver claramente que MKD1 es mucho más simple y básica donde la información es clara y contiene ejemplos.
+Se puede destacar que agregaron un índice donde puedes bucar la información que necesitas.
+Por otro lado MKD2 es una página mucho mas completa donde aparte de explicaciones agregan imágenes que explican paso por paso que tienes que hacer.
 
 
 
@@ -220,8 +220,8 @@ Podemos obervar la edad del árbol expresado con un vector numérico. Tomamos en
 
 3. CIRCUNFERNCIA / CIRCUMFERENCE 
 
-Es el tronco se expresa con otro vector numérico en relacion a la circunferencia del tronco.
-La medida está expresada en milimetros.
+Es el tronco se expresa con otro vector numérico en relación a la circunferencia del tronco.
+La medida está expresada en milímetros.
 
 
 
