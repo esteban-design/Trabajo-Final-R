@@ -1,0 +1,251 @@
+---
+title: "Trabajo Final R"
+author: "Esteban Illescas Vega"
+date: "11/28/2019"
+output:   
+  html_document:
+     toc: true
+     toc_depth: 5
+     toc_float:
+       collapsed: false
+       smooth_scroll: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+# __Expresiones Regulares__
+
+
+
+### Definición 
+
+Expresión regular, también conocida como regex, regexp o expresión racional, es una secuencia de caracteres que forma un patrón de búsqueda, principalmente utilizada para la búsqueda de patrones de cadenas de caracteres u operaciones de sustituciones.
+
+
+### Página 1 ReGex: 
+
+
+
+
+--- A -- [Pagina_Web_ReGex_1](https://aprende-web.net/jspracticas/resumen/resumen9.php)
+
+
+___Resumen De Pagina:___
+
+Las expresiones regulares permiten comprobar si una cadena de texto se ajusta a un determinado tipo de estructura o patrón. Utilizan un lenguaje de signos propio, y permiten también buscar o remplazar texto, no sólo un texto concreto sino un tipo de texto que se ajuste a un determinado patrón.
+
+Temas a tomar en cuenta: 
+
+- Crear una expresión regular
+- Comprobar Texto
+- Caracteres Especiales
+- Cuantificadores 
+- Modificadores
+- Métodos de RegExp
+- Métodos de String
+- Propiedades de RegExp
+
+
+### Página 2 ReGex:
+
+
+--- B -- [Pagina_Web_ReGex_2](https://www.adictosaltrabajo.com/2015/01/29/regexsam/)
+
+
+___Resumen De Pagina:___
+
+Permiten filtrar textos para encontrar coincidencias, comprobar la validez de fechas, documentos de identidad o contraseñas, se pueden utilizar para reemplazar texto con unas características concretas por otro, y muchos más usos...
+
+Lista de los más utilizados:
+
+- ^ Indica el principio de una cadena
+- $ Indica el final de una cadena
+- () Un agrupamiento de parte de una expresión
+- [] Un conjunto de caracteres de la expresión
+- {} Indica un número o intervalo de longitud de la expresión
+- . Cualquier caracter salvo el salto de línea
+- ? 0-1 ocurrencias de la expresión
+- + 1-n ocurrencias de la expresión
+- * 0-n ocurrencias de la expresión
+- \ Para escribir un caracter especial como los anteriores y que sea tratado como un literal
+- | Para indicar una disyunción lógica (para elegir entre dos valores: a|b se tiene que cumplir al menos uno de los dos)...
+
+
+
+
+-- **Comentario y diferencias sobre** **[Pagina_Web_ReGex_1] y [Pagina_Web_ReGex_2]**:
+
+Las dos paginas contienes informacion clave sobre Expresiones Regulares pero la gran difrencia es que en 
+[ReGex1] contiene espacios publicitarios y el diseño es un poco más confuso. En [ReGex2] el diseño es más 
+simple pero para obtener mas información tienes que dar click en links que te llevaran a otra pagina y eso
+quita tiempo al que busca información.
+
+
+
+
+# __Markdown R-Studio__
+
+
+
+
+
+### Definición 
+
+R Markdown es un formato que permite una fácil creación de documentos, presentaciones dinámicas y informes de R. Markdown es un formato de sintaxis simple para crear documentos en HTML, PDF, y Word.
+
+
+### Pagina 1 Markdown: 
+
+
+--- A -- [Pagina_Web_MKD_1](http://www.unavarra.es/personal/tgoicoa/ESTADISTICA_RMarkdown_tomas/basicRmarkdown/index.html)
+
+
+___Resumen De Pagina:___
+
+1.1 Requisitos
+1.2 Tipos de archivo
+1.3 Un ejemplo muy sencillo
+1.4 Cuerpo del documento
+1.5 Ejemplo
+
+
+1. Guia sencilla para empezar con RMarkdown
+
+
+-- 1.1 Requisitos
+
+Para poder presentar tus trabajos en este formato necesitas instalar R y RStudio con los paquetes knitr y rmarkdown
+
+
+-- 1.2 Tipos de archivo
+
+Los archivos para producir documentos R Markdown tienen extensión .Rmd.
+
+Los archivos se abren con RStudio y se ejecutan en la pestaña knitr.
+
+El resultado es un documento en formato .pdf, .html, o .doc...
+
+
+### Página 2 Markdown:
+
+
+--- B -- [Pagina_Web_MKD_2](http://www.rpubs.com/JohanMarin/Rmarkdown)
+
+
+___Resumen De Pagina:___
+
+¿Qué es Markdown?
+R Markdown
+¿Como se compila?
+El Primer Rmarkdown
+Configuración del documento
+Paquetes complementarios
+
+
+R MARKDOWN
+Teniendo en cuenta estas ventajas de markdown y el enfoque de R en la estadistica y el deseo por generar conocimiento con transparencia, Yihui Xie creo el paquete knitr.
+
+El cual aprovecha las caracteristicas de Markdown, latex), y html para generar reportes en múltiples formatos, figura 2, sin la necesidad un editor externo...
+
+
+... ¿Como se compila?
+Cuando se selecciona el botón botón Knit el documento R Markdown es procesado por knitr y un documento Markdown simple es producido el código R es ejecutado y reemplazado por ambas la entrada y la salida; si las figuras son producidas, se incluyen enlaces a esas figuras...
+
+
+
+-- **Comentario y diferencias sobre** **[Pagina_Web_MKD_1] y [Pagina_Web_MKD_2]**:
+
+
+Podemos ver claramente que MKD1 es mucho mas simple y basica donde la informacion es clara y contiene ejemplos.
+Se puede destacar que agregaron un indice donde puedes bucar la informacion que necesitas.
+Por otro lado MKD2 es una pagina mucho mas completa donde aparte de explicaciones agregan imagenes que explican paso por paso que tienes que hacer.
+
+
+
+
+
+### __GRÁFICAS__
+
+
+Gráfica 1
+
+```{r pressure, echo=FALSE, message=FALSE}
+library(ggplot2)
+orange_2 <- Orange
+
+g_naranjo <- ggplot(orange_2, aes(x = Tree, y = circumference, colour = 'ROJO')) + 
+  geom_point() + geom_smooth() +
+  theme(legend.position = 'bottom')
+g_naranjo <- g_naranjo + ggtitle("GRAFICA_1") 
+g_naranjo
+```
+
+
+Gráfica 2
+
+```{r, echo=FALSE, message=FALSE}
+library(ggplot2)
+orange_2 <- Orange
+
+g_naranjo2 <- ggplot(orange_2, aes(x = age, y = circumference, color=Tree)) + 
+  geom_point() + facet_wrap(~Tree)+ geom_smooth() +
+  theme(legend.position = 'bottom')
+g_naranjo2 <- g_naranjo2 + ggtitle("GRÁFICA_2") 
+g_naranjo2
+
+```  
+
+*ANÁLISIS*
+
+DATASET: Orange / Crecimiento de Árboles de Naranja . 
+
+El dataframe consiste de 35 filas y 3 columnas que contienen datos de crecimiento de los arboles. 
+
+Las columnas son:
+
+1. ÁRBOL / TREE
+
+Es el árbol en el que se realiza la medición y se aplica un factor ordenado de menor a mayor. Es decir, a medida que crecer diámetro máximo.
+
+
+2. EDAD / AGE
+
+Podemos obervar la edad del árbol expresado con un vector numérico. Tomamos en cuenta que es desde 31 de Dicimebre de 1968 
+
+
+3. CIRCUNFERNCIA / CIRCUMFERENCE 
+
+Es el tronco se expresa con otro vector numérico en relacion a la circunferencia del tronco.
+La medida está expresada en milimetros.
+
+
+
+
+### __TABLA__
+
+
+
+La siguiente Tabla incluye:
+
+3 columnas y Head de 10 filas (En total son 35).
+
+
+```{r results= "asis", echo=FALSE, message=FALSE}
+library(DT)
+datatable(head(Orange, n=nrow(Orange)), options = list(pageLenght =5))
+```
+
+
+
+
+
+
+
+------------------------------------------------------------------
+
+
